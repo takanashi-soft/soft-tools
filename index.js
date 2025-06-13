@@ -1,10 +1,11 @@
-const { chatgpt, mylogic, takanashi, github, vault, yotools, fbdl, igdl, ttdl, ytmp3, ytmp4 } = require("./soft");
+const { chatgpt, mylogic, takanashi, exploit, github, vault, yotools, fbdl, igdl, ttdl, ytmp3, ytmp4 } = require("./soft");
 
 module.exports = {
   ai: {
     chatgpt,
     mylogic,
-    takanashi
+    takanashi,
+    exploit
   },
   uploader: {
     github,
